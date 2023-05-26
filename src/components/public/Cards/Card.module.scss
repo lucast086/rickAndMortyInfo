@@ -1,0 +1,13 @@
+.carta:hover {
+    box-shadow: 5px 5px 20px green;
+    overflow: hidden;
+    .img{
+        transform: scale(1.1);
+    }
+  }
+  .carta {
+    .img {
+        border-bottom: 1px black solid;
+    }
+    box-shadow: 3px 3px 10px black;
+  }
