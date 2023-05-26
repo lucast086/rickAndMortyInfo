@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Episodes from "./pages/Episodes";
 import Location from "./pages/Location";
 import Card from "./components/public/Cards/Card";
+import Footer from "./components/public/Footer/Footer";
 
 function App() {
 	return (
@@ -21,6 +22,8 @@ function App() {
 				<Route path="/location" element={<Location />} />
 				<Route path="/:id" element={<Card />} />
 			</Routes>
+
+			<Footer/>
 		</Router>
 	);
 }
